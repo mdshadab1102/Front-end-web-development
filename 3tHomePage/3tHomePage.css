@@ -1,0 +1,414 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.header{
+	background: url('3t-black-6-1920x1080.png');
+	height: 120vh;
+	-webkit-background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header h1{
+	font-size: 40px;
+	font-weight: 800;
+	color: #efefef;
+}
+.solution{
+	height: auto;
+	background: #0D0D0D;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+
+}
+.solution h1{
+	font-size: 40px;
+	color: #FA8D01;
+	margin-bottom: 1rem;
+
+}
+.solution h2{
+	font-size: 22.4px;
+    font-weight: 400;
+    line-height: 26.88px;
+    color: rgb(255, 255, 255);
+   /*  padding: .75rem 0; */
+}
+.modulus1{
+	height: 120vh;
+	background: url('3t-black-2-1920x1080.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+}
+.video{
+	height: 30vh;
+	background: #0D0D0D;
+	text-align: center;
+	padding-top: 2rem;
+}
+.video h1{
+	color: #fff;
+	font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+    margin-bottom: 2rem;
+}
+.video a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+	transition: all ease-in-out .2s;
+}
+.video a:hover{
+	border: none;
+}
+.priority{
+	height: 40vh;
+	background: #FA8D01;
+	padding-top: 2rem;
+}
+.priority h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(13, 13, 13);
+    text-align: center;
+}
+.priority-para{
+	padding: 1rem 8rem;
+}
+.priority p{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(13, 13, 13);
+}
+.follow{
+	height: 20vh;
+	background: #0D0D0D;
+	text-align: center;
+	padding-top: 2rem;
+}
+.follow h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+}
+.modulus2{
+	height: 120vh;
+	margin-left: -1.3rem;
+	background: url('3t-black-5-1948x1080.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+}
+.customise{
+	height: 65vh;
+	background: #FA8D01;
+	padding: 4rem 8rem;
+	display: flex;
+	justify-content: space-around;
+}
+.customise .content{
+    padding-right: 8rem;
+}
+.customise .content h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(0, 0, 0);
+}
+.customise .content p{
+	font-size: 22.4px;
+    font-weight: 400;
+    line-height: 26.88px;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+.customise .button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 7rem;
+
+}
+.learn-more{
+	width: 175px;
+	height: 50px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.learn-more a{
+	color: #fff;
+	font-size: 19.2px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.learn-more:hover{
+	background: rgb(250, 141, 1);
+	border: 1px solid #000;
+}
+.learn-more:hover a{
+	color: #000;
+}
+.mission{
+	height: 115vh;
+	background: #0D0D0D;
+}
+.mission h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.mission .container{
+	display: flex;
+	justify-content: space-between;
+}
+.mission .container .card{
+	margin: 2rem 1rem;
+}
+.mission .container .card img{
+    width: 410px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.mission .container .card h2{
+   font-size: 22.4px;
+   font-weight: 500;
+   line-height: 26.88px;
+   color: rgb(255, 255, 255);
+   padding: 1rem 0;
+}
+.mission .container .card p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgb(255, 255, 255);
+}
+#img3{
+	width: 420px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.competence{
+	height: auto;
+	background: #FA8D01;
+	display: flex;
+    padding: 3rem 0;
+    padding-left: 9rem;
+}
+.competence .img img{
+	width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+.competence .content{
+	padding-left: 4rem;
+	padding-right: 8rem;
+	padding-top: 1rem;
+}
+.competence .content h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    padding-bottom: 2rem;
+}
+.competence .content p{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding-left: 0;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.business-level{
+	height: auto;
+	background: url('background.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+    padding: 0 5rem;
+    padding-bottom: 2rem;
+}
+.business-level h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3rem 0;
+}
+.business-level .container{
+	display: flex;
+	justify-content: center;
+}
+.business-level .container .card{
+	width: 325px;
+	height: 62vh;
+	margin: 0 1rem;
+}
+.business-level .container .card .img{
+    width: 325px;
+    height: 225px;
+	overflow: hidden;
+	 object-fit: cover;
+}
+.business-level .container .card img{
+	width: 325px;
+    height: 225px;
+    background-size: cover;
+    background-position: center center;
+    transition: all ease-in-out .4s;
+}
+.business-level .container .card:hover .img img{
+	transform: scale(1.2);
+}
+.business-level .container .card p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgb(0, 0, 0);
+    padding: 2rem 1rem;
+    padding-bottom: .5rem;
+    padding-left: 0;
+    transition: all ease-in-out .4s;
+}
+.business-level .container .card h2{
+	font-size: 22.4px;
+    font-weight: 500;
+    line-height: 26.88px;
+    color: rgb(0, 0, 0);
+    transition: all ease-in-out .4s;
+}
+.business-level .container .card:hover :is(h2,p){
+	transform: translateX(15px);
+}
+.vision{
+	height: 80vh;
+	background: #0D0D0D;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+.vision h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    padding: 2rem 0;
+}
+.vision img{
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	background-position: center center;
+}
+.contact{
+	height: auto;
+	background: #fff;
+	padding: 1rem 0;
+	padding-bottom: 1.5rem;
+}
+.contact h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2rem 0;
+    padding-top: 1rem;
+}
+.contact .contact-input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.contact .contact-input input{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	margin: 2rem 1rem;
+	width: 350px;
+	font-size: 16px;
+}
+#interested{
+	width: 730px;
+}
+.contact .submit{
+	width: 730px;
+	height: 50px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(42%);
+}
+.contact .submit a{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 auto;
+}
+.footer{
+	height: 70vh;
+	background: #0D0D0D;
+	display: flex;
+	justify-content: space-between;
+}
+.details{
+	width: 50%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.details h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.details p{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+}
+#phnumber{
+	padding: 1rem 0;
+}
+.details .footer-anchor{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(250, 141, 1);
+    text-decoration: none;
+}
+.details .footer-anchor:hover{
+    color: rgb(98, 55, 0);
+}
+.details .icon{
+    color: rgb(255, 255, 255);
+    margin: 0 1rem;
+}
+.map{
+	width: 50%;
+}

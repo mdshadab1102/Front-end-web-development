@@ -1,0 +1,157 @@
+.section1{
+	height: 115vh;
+	background: #0D0D0D;
+	padding-top: 5rem;
+}
+.section1 h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    padding: 2rem 0;
+    text-align: center;
+}
+.section1 .container{
+	height: 84.5vh;
+	display: flex;
+
+}
+.section1 .container .background-img{
+	width: 50%;
+	padding-top: 5rem;
+	padding-left: 10rem;
+	padding-right: 13rem;
+	transition: all ease-in-out  .8s;
+}
+#bgimg1:hover{
+	background: url('background1.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+}
+#bgimg2:hover{
+   background: url('background2.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+}
+.section1 .container .background-img h2{
+	font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+    color: #fff;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+.section1 .container .background-img p{
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color: #fff;
+}
+.section1 .container .background-img a{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: all ease-in-out .5s;
+}
+.section1 .container .background-img:hover a{
+	border: none;
+}
+#para1{
+	padding-bottom: 2.5rem;
+}
+#para2{
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+	padding-top: 1rem;
+	padding-bottom: 2.5rem;
+}
+.section2{
+	height: 130vh;
+	background: rgb(250, 141, 1);
+}
+.section2 h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2rem;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 1rem;
+	padding-left: 1rem;
+}
+.grid-container .grid-element1{
+	grid-row: 1/2;
+	grid-column: 1/2;
+
+}
+.grid-container .grid-element2{
+	grid-row: 1/2;
+	grid-column: 2/3;
+	
+}
+.grid-container .grid-element3{
+	grid-row: 1/2;
+	grid-column: 3/4;
+	
+}
+.grid-container .grid-element4{
+	grid-row: 2/3;
+	grid-column: 1/2;
+	
+}
+.grid-container .grid-element5{
+	grid-row: 2/3;
+	grid-column: 2/3;
+	
+}
+.grid-container .grid-element6{
+	grid-row: 2/3;
+	grid-column: 3/4;
+	
+}
+.grid-container img{
+	width: 420px;
+	height: 225px;
+	background-size: cover;
+	background-position: center center;
+}
+.grid-container h3{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+:is(.grid-element1,.grid-element2,.grid-element3) p{
+	padding-bottom: 3rem;
+}
+.section3{
+	height: 120vh;
+	background: #0D0D0D;
+}
+.section3 h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem;
+}
+.section3 .grid-container h3{
+	font-size: 22.4px;
+    font-weight: 500;
+    line-height: 26.88px;
+    color: rgb(255, 255, 255);
+}
+.section3 :is(.grid-element1,.grid-element2,.grid-element3) h3{
+	padding-bottom: 3rem;
+}

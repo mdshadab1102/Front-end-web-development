@@ -1,0 +1,107 @@
+
+
+main{
+	display: grid;
+	grid-template-rows: 180vh;
+	grid-template-columns:  repeat(2, 40vw);
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+	padding-left: 8rem;
+}
+.section1{
+   grid-row: 1/-1;
+   grid-column: 1/2;
+}
+.section1 p{
+	font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+}
+.section2{
+   grid-row: 1/-1;
+   grid-column: 2/3;
+}
+.section2 .container{
+	display: flex;
+
+}
+.section2 .container .card{
+	margin: 1rem 1rem;
+	width: 250px;
+	padding: 1rem .5rem;
+	padding-bottom: 3rem;
+	transition: box-shadow ease-in-out 500ms;
+}
+.section2 .container .card h2{
+	font-size: 22.4px;
+    font-weight: 500;
+    line-height: 26.88px;
+    padding: 1rem 0;
+}
+.section2 .container .card p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.section2 .container .card .img{
+	overflow: hidden;
+}
+.img1{
+	width: 230px;
+	height: 75px;
+}
+#img1{
+	width: 230px;
+	height: 75px;
+	background-position: center center;
+	background-size: cover;
+}
+.img2{
+	width: 230px;
+	height: 130px;
+}
+#img2{
+	width: 230px;
+	height: 130px;
+	background-position: center center;
+	background-size: cover;
+}
+.img3{
+	width: 230px;
+	height: 130px;
+}
+#img3{
+	width: 230px;
+	height: 130px;
+	background-position: center center;
+	background-size: cover;
+}
+.img4{
+	width: 230px;
+	height: 110px;
+}
+#img4{
+	width: 230px;
+	height: 110px;
+	background-position: center center;
+	background-size: cover;
+}
+.img5{
+	width: 230px;
+	height: 130px;
+}
+#img5{
+	width: 230px;
+	height: 130px;
+	background-position: center center;
+	background-size: cover;
+}
+.section2 .container .card .img img{
+	transition: transform ease-in-out 500ms;
+}
+.section2 .container .card:hover .img img{
+	transform: scale(1.2);
+}
+.section2 .container .card:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}

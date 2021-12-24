@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+nav{
+	width: 100vw;
+	height: 70px;
+	background: #cccccc;
+	display: flex;
+	padding: .5rem 1rem;
+	align-items: center;
+	position: fixed;
+	z-index: 5;
+}
+nav .logo{
+    margin-right: 2rem;
+}
+nav .logo img{
+	width: 60px;
+	height: 15px;
+}
+nav .menu{
+	width: 60%;
+	margin-right: 10rem;
+}
+nav .menu ul{
+	list-style: none;
+	display: flex;
+}
+nav .menu ul li{
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    margin: 0 1rem;
+    position: relative;
+}
+nav .menu ul li a{
+	color: #000;
+	text-decoration: none;
+}
+.dropdown{
+	background:  #cccccc;
+    position: absolute;
+    left: -20px;
+    top: 22px;
+    padding: 1rem;
+    padding-top: 2rem;
+    display: none;
+    transition: display ease-in-out 200ms;
+}
+.dropdown ul{
+	display: flex;
+	flex-direction: column;
+}
+.dropdown .dropdown-li{
+	margin: .5rem;
+}
+nav .menu ul li:hover > a{
+	text-decoration: underline;
+}
+nav .menu ul li:hover .dropdown{
+	display: block;
+}
+#caret{
+	position: relative;
+	/* height: 70px; */
+}
+#caret::after{
+	content: "";
+	position: absolute;
+	top: 9px;
+	left: 83px;
+	border-top: 5px solid #000;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+nav .social-media{
+    margin: 1rem;
+    margin-bottom: 0;
+}
+nav .social-media a{
+	color: #000;
+	text-decoration: none;
+	margin: .5rem;
+}
+nav .social-media a i{
+    font-weight: 500;
+    transform: scale(1.2, 1.2);
+}
+nav .button{
+    background: #000;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .button a{
+	font-size: 17px;
+	color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    padding: .5rem;
+}

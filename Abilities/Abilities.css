@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.header{
+	height: 120vh;
+	background: url('background1.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header h1{
+	font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+    color: rgb(250, 141, 1);
+}
+.abilities-content{
+	height: 105vh;
+	background: #0D0D0D;
+	padding: 3rem 10rem;
+	margin-top: -3rem;
+}
+.abilities-content h1{
+	font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.abilities-content p{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+}
+.abilities-content .img{
+	margin-top: 2rem;
+}
+.abilities-content .img img{
+	width: 720px;
+	height: 405px;
+	background-size: cover;
+    background-position: center center;
+}
+.card-container{
+	height: 80vh;
+	background: rgb(250, 141, 1);
+	display: flex;
+	padding: 2rem 0;
+}
+.card-container .card{
+	margin: .75rem;
+	padding-left: .70rem;
+}
+.card-container .card img{
+	width: 300px;
+	height: 225px;
+	background-position: center center;
+	background-size: cover;
+}
+.card-container .card h2{
+	font-size: 22.4px;
+    font-weight: 500;
+    line-height: 26.88px;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+.card-container .card p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgb(0, 0, 0);
+}

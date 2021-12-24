@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.section1{
+	height: 110vh;
+	background: #0D0D0D;
+	display: flex;
+	align-items: center;
+}
+.section1 .img-container{
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 8rem;
+}
+.section1 .img-container .img img{
+	width: 500px;
+	height: 450px;
+	background-position: center center;
+	background-size: cover;
+}
+.section1 .content{
+	padding-left: 5rem;
+	padding-right: 12rem;
+
+}
+.section1 .content h1{
+	font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+    color: #fff;
+
+}
+.section1 .content p{
+	font-size: 19.2px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #fff;
+    padding-top: 1rem;
+}
+.section2{
+    height: 90vh;
+	background: #0D0D0D;
+	text-align: center;
+}
+.section2 > h1{
+    font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+    color: #fff;
+}
+.section2 > p{
+	font-size: 22.4px;
+    font-weight: 400;
+    line-height: 26.88px;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+.section2 .card-container{
+	display: flex;
+	justify-content: space-around;
+}
+.section2 .card-container .card img{
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+}
+.section2 .card-container .card h1{
+	font-size: 38.4px;
+    font-weight: 500;
+    line-height: 46.08px;
+    color: #fff;
+    padding: 2rem 0;
+}
+.section2 .card-container .card p{
+	font-size: 22.4px;
+    font-weight: 500;
+    line-height: 26.88px;
+    color: #fff;
+}
+.section3{
+	height: 100vh;
+	background: url('background.png');
+	-webkit-background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.section3 h1{
+    font-size: 38.4px;
+    font-weight: 700;
+    line-height: 46.08px;
+    color: rgb(250, 141, 1);
+    padding-bottom: 5rem;
+}
+.section3 p{
+	font-size: 22.4px;
+    font-weight: 400;
+    line-height: 26.88px;
+    color: #fff;
+    padding: 0 10rem;
+}
+#para2{
+	padding: 3rem;
+}
+.section4{
+	height: 90vh;
+	background: #0D0D0D;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.section4 .content{
+	padding-left: 7rem;
+}
+.section4 .content h1{
+	font-size: 38.4px;
+	font-weight: 700;
+    Line-height: 46.08px;
+    color: #fff;
+    padding: 4rem 0;
+}
+.section4 .content p{
+	font-size: 38.4px;
+    font-weight: 400;
+    line-height: 46.08px;
+    color: #fff;
+}
+.section4 .img{
+	padding-right: 7rem;
+}
+.section4 .img img{
+    width: 800px;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
